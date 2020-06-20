@@ -18,6 +18,8 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import Store from '../Assets/store.svg'
 import EmojiObjectsOutlinedIcon from '@material-ui/icons/EmojiObjectsOutlined';
 import Foguete from '../Assets/foguete.svg'
+import Seguro from '../Assets/seguro.svg'
+import Seguranca from '../Assets/seguranca.svg'
 export default class Main extends React.Component {
     state = {
         text_perfil: "Meu nome é alex, sou desenvolvedor Fullstack para web,atualmente tenho alguns projetos em desenvolvimento que estão disponiveisno github que você pode dar uma conferida na seção meus projetos"
@@ -197,18 +199,18 @@ EzJzM3LjAiUyA0OMKwMTknMTAuNiJX!5e0!3m2!1spt-BR!2sbr!4v1592566279300!5m2!1spt-BR!
                                 <img src={Store} alt="casa" className="col-md-6 img_carousel col-6 " />
                                 <div className="div col-md-3 col-6 ">
                                     <h1 className="h1_carousel">Sabe aquela ideia que você teve para seu négocio?<EmojiObjectsOutlinedIcon  className="ml-2" style={{ fontSize: 40}} color="secondary" /></h1>
-                                    <p>A <strong>Evollution</strong> com a sua equipe de programadores estão a mil para trazer para ao mundo real e garantir que o seu negócio cresça acompanhando o mundo da tecnologia.</p>
+                                    <p>A <strong>Evolution</strong> com a sua equipe de programadores estão a mil para trazer para ao mundo real e garantir que o seu negócio cresça acompanhando o mundo da tecnologia.</p>
                                     <img src={Foguete} alt="foguete" className="foguete"/>
                                 </div>
                             </div>
                         </div>
                         <div className="carousel-item" data-interval="4000">
                         <div className="row d-flex justify-content-center carousel">
-                                <img src={Store} alt="casa" className="col-md-6 img_carousel col-6" />
+                                <img src={Seguro} alt="seguro" className="col-md-6 img_carousel col-6" />
                                 <div className="div col-md-3 col-6 ">
-                                    <h1 className="h1_carousel">Sabe aquela ideia que você teve para seu négocio?<EmojiObjectsOutlinedIcon  className="ml-2" style={{ fontSize: 40}} color="secondary" /></h1>
-                                    <p>A <strong>evollution</strong> com a sua equipe de programadores estão a mil para trazer para ao mundo real e garantir que o seu negócio cresça acompanhando o mundo da tecnologia.</p>
-                                    <img src={Foguete} alt="foguete" className="foguete"/>
+                                    <h1 className="h1_carousel">Banco de dados e Apis 100% seguros.<EmojiObjectsOutlinedIcon  className="ml-2" style={{ fontSize: 40}} color="secondary" /></h1>
+                                    <p>Pensando na segurança da aplicação nós da <strong>Evolution</strong> estamos sempre buscando o melhor serviço de hospedagem para proteger não só os dados do seu négocio mais também a extrutura de toda aplicação.</p>
+                                    <img src={Seguranca} alt="seguranca" className="foguete"/>
                                 </div>
                             </div>
                         </div>
