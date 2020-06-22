@@ -1,0 +1,33 @@
+.section4 {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.section4 .img_carousel {
+    height: 100%;
+    width: 100%;
+}
+
+.section4 .h1_carousel {
+    margin-top: 50px;
+    color: #28a745!important;
+}
+
+.section4 .seguranca {
+    height: 200px;
+    width: 250px;
+}
+
+.section4 .seguranca:hover {
+    animation-name: foguete;
+    animation-duration: 1s;
+    animation-delay: -0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes foguete {
+    from {}
+    to {
+        height: 250px;
+    }
+}

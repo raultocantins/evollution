@@ -1,0 +1,53 @@
+.map {
+    height: 300px;
+    width: 80%;
+    border-radius: 25px;
+}
+
+.location {
+    height: 50%;
+}
+
+.section2 {
+    height: 100vh;
+    background-color: yellow!important;
+}
+
+.section2 .describe {
+    height: 50%;
+    width: 100%;
+}
+
+.section2>.home {
+    height: 100%;
+    width: 100%;
+}
+
+.section2>.endereco .contato {
+    height: 100%;
+}
+
+.section2>.contato {
+    height: 100%;
+}
+
+.section2 h1 {
+    font-size: 20px;
+}
+
+.btn:hover {
+    animation-name: zoombtn;
+    animation-delay: -0.5s;
+    animation-duration: 1s;
+}
+
+.icon:hover {
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-delay: -0.5s;
+}
+
+#mensagem {
+    height: 150px;
+    resize: none;
+}

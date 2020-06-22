@@ -1,0 +1,62 @@
+.section1 {
+    height: auto;
+    margin: 0px;
+}
+
+.section1 img {
+    height: 300px;
+    width: 100px;
+    border-radius: 20%;
+    padding: 20px;
+}
+
+.section1 h3 {
+    padding: 20px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.section1 li {
+    outline: none;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.section1 .card {
+    height: 230px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0);
+    background-color: #f8f9fa;
+}
+
+.section1 .card a {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.section1 .card img {
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section1 .card h1 {
+    padding-top: 10px;
+    height: 40%;
+    margin: auto;
+    width: 80%;
+    font-size: 18px;
+}
+
+.card:hover {
+    animation-name: slow;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
