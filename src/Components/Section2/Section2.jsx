@@ -1,6 +1,5 @@
 import React from 'react'
 import './Section2.css'
-import Home from '../../Assets/casa.svg'
 import HomeIcon from '@material-ui/icons/Home';
 import EditLocationIcon from '@material-ui/icons/EditLocation';
 import LocationCityIcon from '@material-ui/icons/LocationCity';
@@ -46,7 +45,7 @@ export default function section2() {
                         </div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.429116176212!2d-48.
 32178868520811!3d-10.226932713499842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsD
-EzJzM3LjAiUyA0OMKwMTknMTAuNiJX!5e0!3m2!1spt-BR!2sbr!4v1592566279300!5m2!1spt-BR!2sbr"  className="map ml-5 mt-5 ">
+EzJzM3LjAiUyA0OMKwMTknMTAuNiJX!5e0!3m2!1spt-BR!2sbr!4v1592566279300!5m2!1spt-BR!2sbr"  className="map ml-5 mt-5 " title="map google">
                         </iframe>
                     </div>
                 </div>
@@ -73,7 +72,7 @@ EzJzM3LjAiUyA0OMKwMTknMTAuNiJX!5e0!3m2!1spt-BR!2sbr!4v1592566279300!5m2!1spt-BR!
                             <label >Mensagem</label>
                             <textarea type="text" className="form-control" id="mensagem" />
                         </div>
-                        <button className="btn btn-success" id="enviar">
+                        <button className="btn btn-success enviar" id="enviar">
                             Enviar
                         </button>
                     </div>

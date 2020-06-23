@@ -1,10 +1,9 @@
 import React from 'react'
 import './Section5.css'
 import Angular from '../../Assets/angular.svg'
-import Css from '../../Assets/css.svg'
 import Js from '../../Assets/js.svg'
 import Node from '../../Assets/node.svg'
-import Python from '../../Assets/python.svg'
+import Python from '../../Assets/python (1).svg'
 import Reagir from '../../Assets/react.svg'
 import Vue from '../../Assets/vue.svg'
 
@@ -34,7 +33,7 @@ export default function section4() {
 
                 </div>
                 <div className="col-3 mr-1 mb-5 circle">
-                    <img src={Css} alt="angular" className="frameworks" />
+                    <img src={Python} alt="angular" className="frameworks" />
 
                 </div>
 

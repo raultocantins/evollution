@@ -2,7 +2,7 @@ import React from 'react'
 import './Section4.css'
 import Seguro from '../../Assets/seguro.svg'
 import Seguranca from '../../Assets/seguranca.svg'
-import EmojiObjectsOutlinedIcon from '@material-ui/icons/EmojiObjectsOutlined';
+
 
 export default function section4() {
     return (
