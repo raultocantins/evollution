@@ -21,8 +21,7 @@
 
 .frameworks:hover {
     animation-name: rotate;
-    animation-duration: 2s;
-    animation-delay: -0.5s;
+    animation-duration: 1s;
     animation-iteration-count: 3;
 }
 
@@ -30,7 +29,14 @@
     box-shadow: 5px 5px 5px #888888;
     display: flex;
     justify-content: center;
-    background-color: #28a74656
+    background-color: #28a74618
+}
+
+.section5 .circle:hover {
+    animation-name: colors;
+    animation-duration: 2s;
+    animation-delay: -0.5s;
+    animation-iteration-count: 3;
 }
 
 @keyframes rotate {
@@ -39,5 +45,14 @@
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes colors {
+    from {
+        box-shadow: 5px 5px 5px #888888;
+    }
+    to {
+        box-shadow: 5px 5px 5px #28a745;
     }
 }

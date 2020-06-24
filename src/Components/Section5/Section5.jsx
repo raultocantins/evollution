@@ -17,23 +17,23 @@ export default function section4() {
 
                 </div>
                 <div className="col-3 mr-1 mb-5 circle">
-                    <img src={Reagir} alt="angular" className="frameworks" />
+                    <img src={Reagir} alt="react" className="frameworks" />
 
                 </div>
                 <div className="col-3 mr-1 mb-5 circle">
-                    <img src={Vue} alt="angular" className="frameworks" />
+                    <img src={Vue} alt="vuejs" className="frameworks" />
 
                 </div>
                 <div className="col-3 mr-1 mb-5 circle">
-                    <img src={Node} alt="angular" className="frameworks" />
+                    <img src={Node} alt="nodejs" className="frameworks" />
 
                 </div>
                 <div className="col-3 mr-1 mb-5 circle">
-                    <img src={Js} alt="angular" className="frameworks" />
+                    <img src={Js} alt="js" className="frameworks" />
 
                 </div>
                 <div className="col-3 mr-1 mb-5 circle">
-                    <img src={Python} alt="angular" className="frameworks" />
+                    <img src={Python} alt="python" className="frameworks" />
 
                 </div>
 

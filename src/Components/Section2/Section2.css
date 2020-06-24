@@ -10,6 +10,7 @@
 
 .section2 {
     height: 100vh;
+    overflow: hidden;
 }
 
 .section2 .describe {
@@ -49,4 +50,8 @@
 #mensagem {
     height: 150px;
     resize: none;
+}
+
+#enviar {
+    width: 100%;
 }

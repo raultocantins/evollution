@@ -17,17 +17,3 @@
     height: 200px;
     width: 250px;
 }
-
-.section4 .seguranca:hover {
-    animation-name: foguete;
-    animation-duration: 1s;
-    animation-delay: -0.5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes foguete {
-    from {}
-    to {
-        height: 250px;
-    }
-}

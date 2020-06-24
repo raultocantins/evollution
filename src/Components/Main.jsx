@@ -1,5 +1,6 @@
 import './Main.css'
 import React from 'react'
+import Jquery from 'jquery'
 import { Element } from 'react-scroll'
 
 import Header from '../Components/Header/Header'
@@ -14,7 +15,45 @@ export default class Main extends React.Component {
 
     constructor(props) {
         super(props)
+        this.jq = this.jq.bind(this)
+    }
 
+    jq() {
+        Jquery('.section3 ').mouseenter(() => {
+            Jquery('.section3 .h1_carousel').fadeOut(() => {
+
+                Jquery('.section3 .h1_carousel').fadeIn(500)
+            })
+        })
+
+
+        Jquery('.section4 ').mouseenter(() => {
+            Jquery('.section4 .h1_carousel').fadeOut(() => {
+
+                Jquery('.section4 .h1_carousel').fadeIn(500 )
+            })
+        })
+        Jquery('.section5 ').mouseenter(() => {
+            Jquery('.section5 h1').fadeOut(() => {
+                Jquery('.section5 h1').fadeIn(500)
+
+            })
+        })
+        Jquery('.section6 ').mouseenter(() => {
+            Jquery('.section6 h1').fadeOut(() => {
+                Jquery('.section6 h1').fadeIn(500)
+
+            })
+        })
+
+
+
+
+
+    }
+
+    componentDidMount() {
+        this.jq()
     }
 
     render() {

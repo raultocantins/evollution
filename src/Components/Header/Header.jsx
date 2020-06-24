@@ -20,20 +20,20 @@ export default function header() {
                         <li className="nav-item active">
 
 
-                            <Link activeClass="active" className="nav-link" to="section5R" spy={true} smooth={true} duration={500} >Tecnologias</Link>
+                            <Link activeClass="active" className="nav-link " hreF="/" to="section5R" spy={true} smooth={true} duration={500} >Tecnologias</Link>
 
 
                         </li>
                         <li className="nav-item">
-                            <Link activeClass="active" className="nav-link" to="section6R" spy={true} smooth={true} duration={500} >Aprenda a programar</Link>
+                            <Link activeClass="active" className="nav-link " hreF="/" to="section6R" spy={true} smooth={true} duration={500} >Aprenda a programar</Link>
 
                         </li>
                         <li className="nav-item">
-                            <Link activeClass="active" className="nav-link" to="section3R" spy={true} smooth={true} duration={500} >Sobre</Link>
+                            <Link activeClass="active" className="nav-link " hreF="/" to="section3R" spy={true} smooth={true} duration={500} >Sobre</Link>
 
                         </li>
                         <li className="nav-item">
-                            <Link activeClass="active" className="nav-link" to="section2R" spy={true} smooth={true} duration={500} >Contato</Link>
+                            <Link activeClass="active" className="nav-link " hreF="/" to="section2R" spy={true} smooth={true} duration={500} >Contato</Link>
 
                         </li>
 
@@ -41,10 +41,10 @@ export default function header() {
 
                 </div>
                 <div className="col-md-3 col-2">
-                    <a href="/" style={{ color: 'white' }} className="p-3"><FacebookIcon /></a>
+                    <a href="https://www.facebook.com/alex.raul.940" style={{ color: 'white' }} className="p-3"><FacebookIcon /></a>
                     <a href="/" style={{ color: 'white' }} className="p-3">< WhatsAppIcon /></a>
-                    <a href="/" style={{ color: 'white' }} className="p-3"><InstagramIcon /></a>
-                    <a href="/" style={{ color: 'white' }} className="p-3"><LinkedInIcon /></a>
+                    <a href="https://www.instagram.com/raull_sant/" style={{ color: 'white' }} className="p-3"><InstagramIcon /></a>
+                    <a href="https://www.linkedin.com/in/alex-raul-39bb53166/" style={{ color: 'white' }} className="p-3"><LinkedInIcon /></a>
 
                 </div>
 

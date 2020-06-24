@@ -16,17 +16,3 @@
     margin-top: 50px;
     color: #28a745!important;
 }
-
-.section3 .foguete:hover {
-    animation-name: foguete;
-    animation-duration: 1s;
-    animation-delay: -0.5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes foguete {
-    from {}
-    to {
-        height: 250px;
-    }
-}
