@@ -12,7 +12,33 @@
     width: 250px;
 }
 
-.section3 .h1_carousel {
+.section3 h1 {
     margin-top: 50px;
     color: #28a745!important;
+}
+@media(max-width:700px){
+    .section3{
+        height:100vh;
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+
+    .section3 h1{
+        font-size: 35px;
+        margin-top: 10px!important;
+    }
+    .section3 p{
+        font-size: 20px;
+        justify-content: center;
+        
+    }
+    .section3 .foguete{
+        height: 130px;
+        width: 130px;
+    }
+    .section3 .store{
+      
+        height: 250px;
+        width: 250px;
+    }
 }

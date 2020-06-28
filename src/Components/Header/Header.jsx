@@ -36,16 +36,16 @@ if(navbar[0].classList.contains('show')){
                 <div className="col-md-7 ">
                     <ul className="navbar-nav ">
                         <li className="nav-item active">
-                            <Link activeClass="active" className="nav-link " hreF="/" to="section5R" spy={true} smooth={true} duration={500} >Tecnologias</Link>
+                            <Link activeClass="active" className="nav-link " href="/" to="section5R" spy={true} smooth={true} duration={500} >Tecnologias</Link>
                         </li>
                         <li className="nav-item">
-                            <Link activeClass="active" className="nav-link " hreF="/" to="section6R" spy={true} smooth={true} duration={500} >Aprenda a programar</Link>
+                            <Link activeClass="active" className="nav-link " href="/" to="section6R" spy={true} smooth={true} duration={500} >Aprenda a programar</Link>
                         </li>
                         <li className="nav-item">
-                            <Link activeClass="active" className="nav-link " hreF="/" to="section3R" spy={true} smooth={true} duration={500} >Sobre</Link>
+                            <Link activeClass="active" className="nav-link " href="/" to="section3R" spy={true} smooth={true} duration={500} >Sobre</Link>
                         </li>
                         <li className="nav-item  mb-3">
-                            <Link activeClass="active" className="nav-link " hreF="/" to="section2R" spy={true} smooth={true} duration={500} >Contato</Link>
+                            <Link activeClass="active" className="nav-link " href="/" to="section2R" spy={true} smooth={true} duration={500} >Contato</Link>
                         </li>
                     </ul>
                 </div>
