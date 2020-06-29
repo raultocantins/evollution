@@ -56,3 +56,43 @@
         box-shadow: 5px 5px 5px #28a745;
     }
 }
+
+@media (max-height:830px) and (min-height:670px) {
+    .section5 {
+        height: 100vh;
+    }
+    .section5 h1 {
+        font-size: 35px;
+    }
+    .section5 .circle .frameworks {
+        height: 130px;
+        width: 130px;
+    }
+}
+
+@media (max-height:670px) and (min-height:350px) {
+    .section5 {
+        height: 80vh;
+        margin-bottom: 0px;
+    }
+    .section5 h1 {
+        font-size: 30px;
+    }
+    .section5 .circle .frameworks {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (max-width:321px) {
+    .section5 {
+        height: 80vh;
+    }
+    .section5 h1 {
+        font-size: 28px;
+    }
+    .section5 .circle .frameworks {
+        height: 80px;
+        width: 80px;
+    }
+}

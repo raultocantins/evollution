@@ -7,3 +7,21 @@
 .footer p {
     color: white;
 }
+
+@media (max-height:830px) and (min-height:670px) {
+    .footer p {
+        font-size: 15px;
+    }
+}
+
+@media (max-height:670px) and (min-height:350px) {
+    .footer p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:321px) {
+    .footer p {
+        font-size: 12px;
+    }
+}

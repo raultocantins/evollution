@@ -20,17 +20,17 @@ export default class Main extends React.Component {
 
     jq() {
         Jquery('.section3 ').mouseenter(() => {
-            Jquery('.section3 .h1_carousel').fadeOut(() => {
+            Jquery('.section3 h1').fadeOut(() => {
 
-                Jquery('.section3 .h1_carousel').fadeIn(500)
+                Jquery('.section3 h1').fadeIn(500)
             })
         })
 
 
         Jquery('.section4 ').mouseenter(() => {
-            Jquery('.section4 .h1_carousel').fadeOut(() => {
+            Jquery('.section4 h1').fadeOut(() => {
 
-                Jquery('.section4 .h1_carousel').fadeIn(500 )
+                Jquery('.section4 h1').fadeIn(500 )
             })
         })
         Jquery('.section5 ').mouseenter(() => {

@@ -1,23 +1,74 @@
-.section6 h1 {
-    margin-top: 50px;
-    color: #28a745!important;
-}
-
-.section6 {
-    height: 80vh;
-}
-
-.imgyoutube {
-    height: 150px;
-    width: 200px;
-}
-
-.started {
-    height: 100px;
-    outline: none;
-    color: white;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .section6 h1 {
+        margin-top: 50px;
+        color: #28a745!important;
+    }
+    
+    .section6 {
+        height: 80vh;
+    }
+    
+    .imgyoutube {
+        height: 150px;
+        width: 200px;
+    }
+    
+    .started {
+        height: 100px;
+        outline: none;
+        color: white;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    @media (max-height:830px) and (min-height:670px) {
+        .section6 {
+            height: auto;
+        }
+        .section6 .classroom a img {
+            height: 80px;
+            width: 80px;
+            margin-top: 50px;
+        }
+        .section6 p {
+            margin-bottom: 20px!important;
+        }
+    }
+    
+    @media (max-height:670px) and (min-height:350px) {
+        .section6 {
+            height: auto;
+        }
+        .section6 .classroom a img {
+            height: 80px;
+            width: 80px;
+            margin-top: 50px;
+        }
+        .section6 h1 {
+            font-size: 35px;
+            margin-top: 10px!important;
+        }
+        .section6 p {
+            margin-bottom: 20px!important;
+        }
+    }
+    
+    @media (max-width:321px) {
+        .section6 {
+            height: auto;
+        }
+        .section6 .classroom a img {
+            height: 80px;
+            width: 80px;
+            margin-top: 50px;
+        }
+        .section6 h1 {
+            font-size: 30px;
+            margin-top: 10px!important;
+        }
+        .section6 p {
+            font-size: 15px;
+            margin-bottom: 20px!important;
+        }
+    }

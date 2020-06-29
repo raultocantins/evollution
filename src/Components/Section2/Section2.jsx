@@ -81,8 +81,7 @@ export default class section2 extends React.Component {
             <div className=" container-fluid section2  d-flex justify-content-center ">
 
                 <div className="container  row">
-
-                    <div className="col-md-6  ">
+                    <div className="col-md-6 col-12 ">
                         <div className="endereco mt-5">
                             <div className="col-12 ">
                                 <div className="d-flex mb-3 ">
@@ -119,7 +118,8 @@ EzJzM3LjAiUyA0OMKwMTknMTAuNiJX!5e0!3m2!1spt-BR!2sbr!4v1592566279300!5m2!1spt-BR!
                             </iframe>
                         </div>
                     </div>
-                    <div className="col-md-6 contact ">
+                    
+                    <div className="col-md-6 contact col-12 ">
                         <h1 className="text-center mt-5">Enviar uma mensagem</h1>
                         <div className="row mt-5">
                             <div className="col-md-6 mb-3">

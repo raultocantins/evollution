@@ -55,3 +55,54 @@
 #enviar {
     width: 100%;
 }
+
+@media (max-height:830px) and (min-height:670px) {
+    .section2 {
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .section2 .icon {
+        margin: 10px!important;
+        padding: 0px!important;
+    }
+    .section2 .map {
+        display: none;
+    }
+    .section2 .endereco h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-height:670px) and (min-height:350px) {
+    .section2 {
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .section2 .icon {
+        margin: 10px!important;
+        padding: 0px!important;
+    }
+    .section2 .map {
+        display: none;
+    }
+    .section2 .endereco h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:321px) {
+    .section2 {
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .section2 .icon {
+        margin: 10px!important;
+        padding: 0px!important;
+    }
+    .section2 .map {
+        display: none;
+    }
+    .section2 .endereco h1 {
+        font-size: 15px;
+    }
+}
