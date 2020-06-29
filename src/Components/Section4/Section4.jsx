@@ -11,7 +11,7 @@ export default function section4() {
 
                 <div className="div col-md-5 col-12 ">
                     <h1 className="text-center">Banco de dados e Apis 100% seguros.</h1>
-                    <p >Pensando na segurança da aplicação nós da <strong>Evolution</strong> estamos sempre buscando o melhor serviço de hospedagem para proteger não só os dados do seu négocio mais também a extrutura de toda aplicação.</p>
+                    <p >Pensando na segurança da aplicação nós da <strong>Evolution</strong> estamos sempre buscando o melhor serviço de hospedagem para proteger não só os dados do seu négocio mais também a estrutura de toda aplicação.</p>
                     <img src={Seguranca} alt="seguranca" className="seguranca" />
                 </div>
                 <img src={Seguro} alt="seguro" className="col-md-4 seguro col-12" />
