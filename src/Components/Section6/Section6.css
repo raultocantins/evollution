@@ -22,9 +22,10 @@
         align-items: center;
     }
     
-    @media (max-height:830px) and (min-height:670px) {
+    @media (max-width:830px) and (min-height:670px) {
         .section6 {
             height: auto;
+            margin-bottom: 50px;
         }
         .section6 .classroom a img {
             height: 80px;
@@ -36,9 +37,10 @@
         }
     }
     
-    @media (max-height:670px) and (min-height:350px) {
+    @media (max-width:670px) and (min-height:350px) {
         .section6 {
             height: auto;
+            margin-bottom: 50px;
         }
         .section6 .classroom a img {
             height: 80px;
@@ -57,6 +59,7 @@
     @media (max-width:321px) {
         .section6 {
             height: auto;
+            margin-bottom: 50px;
         }
         .section6 .classroom a img {
             height: 80px;

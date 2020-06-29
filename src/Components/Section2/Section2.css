@@ -56,7 +56,7 @@
     width: 100%;
 }
 
-@media (max-height:830px) and (min-height:670px) {
+@media (max-width:750px) and (min-height:670px) {
     .section2 {
         height: auto;
         margin-bottom: 15px;
@@ -70,10 +70,13 @@
     }
     .section2 .endereco h1 {
         font-size: 20px;
+    }
+    .section2 .endereco {
+        display: none;
     }
 }
 
-@media (max-height:670px) and (min-height:350px) {
+@media (max-width:670px) and (min-height:350px) {
     .section2 {
         height: auto;
         margin-bottom: 15px;
@@ -87,6 +90,9 @@
     }
     .section2 .endereco h1 {
         font-size: 20px;
+    }
+    .section2 .endereco {
+        display: none;
     }
 }
 
@@ -104,5 +110,8 @@
     }
     .section2 .endereco h1 {
         font-size: 15px;
+    }
+    .section2 .endereco {
+        display: none;
     }
 }

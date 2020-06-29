@@ -3,7 +3,7 @@
     overflow: hidden;
 }
 
-.section4 .img_carousel {
+.section4 .seguro {
     height: 100%;
     width: 100%;
 }
@@ -18,7 +18,7 @@
     width: 250px;
 }
 
-@media(max-height:830px) and (min-height:670px) {
+@media (max-width:830px) and (min-height:670px) {
     .section4 {
         height: 100vh;
         margin-top: 10px;
@@ -40,7 +40,7 @@
     }
 }
 
-@media(max-height:670px) and (min-height:350px) {
+@media (max-width:670px) and (min-height:350px) {
     .section4 {
         height: 100vh;
         margin-top: 10px;
@@ -62,7 +62,7 @@
     }
 }
 
-@media(max-width:321px) {
+@media (max-width:321px) {
     .section4 {
         height: 100vh;
         margin-top: 10px;

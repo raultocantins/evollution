@@ -8,13 +8,13 @@
     color: white;
 }
 
-@media (max-height:830px) and (min-height:670px) {
+@media (max-width:830px) and (min-height:670px) {
     .footer p {
         font-size: 15px;
     }
 }
 
-@media (max-height:670px) and (min-height:350px) {
+@media (max-width:670px) and (min-height:350px) {
     .footer p {
         font-size: 13px;
     }

@@ -1,10 +1,10 @@
 .section3 {
-    height: 100vh;
+    height: auto;
 }
 
-.section3 .img_carousel {
+.section3 .store {
     height: 100%;
-    width: 100%;
+    width: 100%!;
 }
 
 .section3 .foguete {
@@ -17,7 +17,7 @@
     color: #28a745!important;
 }
 
-@media (max-height:830px) and (min-height:670px) {
+@media (max-width:415px) and (max-height:740px) {
     .section3 {
         height: 100vh;
         margin-top: 10px;
@@ -32,8 +32,8 @@
         justify-content: center;
     }
     .section3 .foguete {
-        height: 130px;
-        width: 130px;
+        height: 250px;
+        width: 250px;
     }
     .section3 .store {
         height: 250px;
@@ -41,7 +41,7 @@
     }
 }
 
-@media (max-height:670px) and (min-height:350px) {
+@media (max-width:415px) and (max-height:750px) {
     .section3 {
         height: 100vh;
         margin-top: 10px;
